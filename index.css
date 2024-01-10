@@ -1,147 +1,469 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.body{
-    
+
+.body {
     font-family: 'Inter', sans-serif;
-
 }
 
-.container{
-    
-    
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
-.banner-section{
-    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(./resources/Banner\ Image.png);
+.banner-section {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./resources/Banner\ Image.png');
     width: 1320px;
     height: 600px;
     margin: auto;
-    color: white;
-    align-items: center;
-    text-align: center;
-}
-.banner-text{
-    font-family: 'Merriweather', serif;
-    padding: 170px;
-
-}
-
-.first-banner-text{
-    color: #FFF;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-
-}
-.second-banner-text{
-    color: #FFF;
-    text-align: center;
-    font-family: Merriweather;
-    font-size: 72px;
-
-}
-
-/* main relates style */
-
-.add-text{
-    text-align: center;
-    margin-top: 10px;
-
-
-
-}
-.fist-add{
-    color: #F00;
-    text-align: center;
-    font-family: Inter;
-    font-size: 70px;
-    padding-top: 50px;
-
-}
-.second-add{
-    margin-top: 25px;
-    color: #F00;
-    font-family: Inter;
-    font-size: 15px;
-    font-style: normal;
-
-}
-.third-add{
-    color: #070211;
-    text-align: center;
-    font-size: 25px;
-    font-style: normal;
-    line-height: normal;
-    font-weight: 40px;
-    margin-bottom: 10px;
-    font-family: inter;
-
-}
-.images-new-year{
-    margin-top: 30px;
-   
-}
-/* middle-banner relates style*/
-.midnight-section{
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(./resources/Vectorrr.png);
+    border-radius: 10px;
     background-repeat: no-repeat;
-    width: 1320px;
-    height: 600px;
-    flex-shrink: 0;
-    border-radius: 15px;
-    margin: auto;
+    margin-top: 10px;
+    color: white;
+    overflow: auto;
+}
+
+.banner-section-text {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding-top: 170px;
 
 }
-.mid-night-section{
+
+.new-year-text {
+    font-size: 32px;
+}
+
+.new-year-text-party {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
+
+.section-two {
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+.off-sixty {
+    font-size: 88px;
+    color: #FF0000;
+    font-family: inter;
+    margin-bottom: 20px;
+
+}
+
+.holiday-text {
+    font-size: 24px;
+    color: #FF0000;
+    font-family: inter;
+    margin-top: 20px;
+    font-style: normal;
+}
+
+.all-categories-text {
+    font-size: 48px;
+    color: #070211;
+    font-family: inter;
+    margin-bottom: 50px;
+}
+
+
+/* middle midnight party */
+.mid-night-section {
     margin-top: 50px;
 }
-.mid-night-section-party{
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./resources/Vectorrr.png');
+
+.midnight-section-party {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./resources/Vectorrr.png');
     width: 1320px;
     height: 600px;
-    border-radius: 5px;
     margin: auto;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    margin-top: 10px;
     color: white;
+    overflow: auto;
 }
 
-.mid-night-section-text-imamge{
+.midnight-party-latest-year-image {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 60px;
 }
-.images-mid-night{
-    opacity: 85%;
-}
-.mid-night-welcome-text{
 
+.mid-night-welcome {
+    color: #FFF;
     font-family: Merriweather;
-    font-size: 64px; 
+    font-size: 64px;
+    padding-left: 50px;
 
 }
-.mid-night-section-dummy-text{
+
+.mid-night-dummy-text {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+    line-height: 30px;
+    padding-left: 50px;
     margin-top: 20px;
-
 }
-.mid-night-join{
+
+.mid-night-joinnow {
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 80px;
+    margin-top: 50px;
+}
+.mid-night-text{
+    margin-top: 100px;
+}
+
+.midnight-latest-year{
     margin-top: 60px;
-    margin-left: 40px;
+    opacity: 70%;
+}
+
+/* section 3 */
+.section-three {
+    margin-top: 32px;
+    text-align: center;
+    font-family: inter;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.section-three-font {
+    padding: 70px;
+    color: #FF0000;
+    text-align: center;
+    font-family: inter;
+    font-size: 16px;
+    line-height: 40px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+.section-three-span-text {
+    color: #070211;
+}
+
+.section-three-button {
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    margin-top: 8px;
+    border: none;
+    gap: 10px;
+    margin-top: 40px;
+    background-color: #FF0000;
+}
+
+/* section-four */
+.section-four {
+    display: flex;
+    gap: 5;
+    margin-top: 70px;
+
+}
+
+.section-four-best-offer {
+    color: #FF0000;
+    font-size: 24px;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section-four-text-one {
+    width: 33%;
+}
+
+.section-four-coming-soon {
+    color: #070211;
+    margin-top: 10px;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.section-four-images-one {
+
+
+    border-radius: 400px;
+    border: 15px solid #F00;
+    padding: 20px;
+
+}
+
+.section-four-dummy-text {
+    margin-top: 20px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.section-four-tow {
+    padding-left: 100px;
+}
+
+.section-four-tow-new {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section-four-tow-new-two {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+}
+
+.section-four-tow-new-images {
+    width: 140px;
+    height: 140px;
+
+}
+
+/* section five */
+.section-five {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.section-five-what-function {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section-five-holidays {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.section-five-sale {
+    color: #070211;
+}
+
+.section-five-dummy-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 20px;
+
+}
+
+/* section six */
+.section-six {
+    align-items: center;
+
+}
+
+.section-six-two-images {
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
 
 
 }
-.mid-night-section-text{
-    margin-top: 35px;
+
+.section-six-images-one {
+    width: 429px;
+    height: 422.461px;
+    top: 200px;
+    left: 100px;
+    z-index: 2;
+
+}
+
+.section-six-last {
+    margin-top: -105px;
+    margin-left: 7px;
+
+}
+
+.section-seven {
+    margin-top: 70px;
+}
+
+.section-seven-best-gifts {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.section-seven-awesome-protfolio {
+    color: #070211;
+    font-size: 48px;
+    margin-top: 8px;
+}
+
+.section-seven-dummy-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 32px;
+    margin-top: 10px;
+
+}
+
+.section-eight-six-images {
+    margin-top: 50px;
+
+}
+
+.section-nine {
+    background: rgba(255, 0, 0, 0.05);
+    padding: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.section-nine-mail-image {
+    width: 150px;
+    height: 150px;
+}
+
+.section-nine-subscriber {
+    color: #070211;
+    font-size: 48px;
+    margin-top: 20px;
+}
+
+.section-nine-dummy-text {
+    margin-top: 20px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.mail-section-nine {
+    margin-top: 30px;
+}
+
+.email {
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background: #FFF;
+    border: none;
+}
+
+.btn-email {
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0px 50px 50px 0px;
+    color: white;
+    margin-left: -30px;
+    background: #F00;
+    border: none;
+}
+
+.footer-section {
+    margin-top: 50px;
+    background-color: #070211;
+    color: white;
+    font-family: inter;
+}
+
+.footer-div-section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.footer-call {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-mail {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.section-footer-padding {
+    margin-top: 50px;
+}
+
+footer-div-dummy-text {
+    font-size: 24px;
+    line-height: 40px;
+
+}
+
+.footer-section-two {
+    padding-top: 30px;
+
+}
+
+.footer-section-hr {
+
+    border-top: 0px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.151);
+    margin: 20px 0 5px 0;
+    width: 930px;
+    height: 1px;
+    margin-left: 250px;
+
+}
+
+.social-media-banner {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.footer-div-last-section {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+
 }
